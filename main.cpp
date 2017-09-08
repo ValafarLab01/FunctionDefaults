@@ -30,7 +30,11 @@ int main(int argc, char** argv) {
     cin >> a >> b >> c;
     
     cout << "(" << a << " + " << b << ")^" << c << " = ";
-    cout << myPower(a, b, c);
+    cout << myPower(a, b, c) << endl;
+    
+    cout << "(1+5)^0 = " << myPower(1, 5) << endl;
+    
+    cout << "(2+0)^0 = " << myPower(2) << endl;
 
     return 0;
 }
